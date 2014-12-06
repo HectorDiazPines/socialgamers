@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+	
+		.nomJuego{
+			text-align: center;
+			margin-top: 20px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 4px;
+			background-color: #F9E69D;
+		}
+		.imgJuego{
+			margin-top: 20px;
+			
+		}
+		.imgJuego img{
+			
+			height:300px;
+			width:250px;
+/* 			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+			border-radius: 4px;
+			background-color: #F9E69D;
+		
+		}
+		.datosJuego{
+			margin-top:46px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 4px;
+			background-color: #F9E69D;
+		}
+		.tabladatos td {
+			padding: 14px;
+			
+	}
+	.descJuego{
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		border-radius: 4px;
+		background-color: #F9E69D;
+		margin-top: 20px;
+	
+	}

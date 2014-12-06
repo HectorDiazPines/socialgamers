@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+/*-----stilos para el buscador de letras---*/
+.contenido{
+	display:block;
+	
+}
+.buscaletra{
+	
+	margin-top: 0;
+	width: auto;
+	padding: 0;
+	border-radius: 6px;
+	box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
+	
+}
+.contenido .buscaletra .btn-warning{
+
+	
+/* 	border-radius: 20px; */
+	
+}
+
+
+/*------stilos para el contenido juegos*/
+#juego{
+	margin-top: 3%;
+	
+}
+#juego .table{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	 border-radius: 4px;
+	background-color: #F9E69D;
+	
+	
+}
+
+/*------stilos para el buscadorMovil*/
+.busca-movil{
+		position:fixed;
+		top: 50%;
+		left: -630px;
+		z-index: 9999;
+		opacity:1;
+	}
+
+
+.formu-busqueda{
+		background-color:orange;
+		padding-left:10px;
+		opacity:1;
+		height:auto;
+		width:600px;
+/* 		border:3px solid; */
+		float:right;
+		border-radius:10px;
+}
+.boton-busqueda{
+		background-color: grey;
+		width: 50px;
+		height: 50px;
+		margin-top: 75px;
+		border: 3px solid;
+		border-radius: 26px;
+		border-color: #FFA500;
+		postion: absolute;
+		position: absolute;
+		top: -32%;
+		right: -2%;;
+		/* float: right; */
+		overflow: hidden;
+}
+
+.busca-movil .boton-busqueda .stop{
+	top: 35%;
+	left: 32%;
+	
+}
+.form-control {
+
+padding: 6px 6px !important;
+}
+.bfecha{
+	
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+ .bpuntuacion{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+}

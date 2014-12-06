@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+ @media only screen and (min-width : 100px) {
+		.cuerpo{
+			
+			top:400px;
+			
+		}
+      	.imgcara{
+				width: 70px;
+				height: 90px;
+				
+		}
+		.imglogo{
+		
+				width: 135px;
+				height: 100px;
+
+		}
+		.lateral{
+	
+			float:right;
+			 visibility: hidden;
+			
+	
+		}
+		
+		.juego{
+	
+			padding-left: 40px; 
+			
+		}
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		.cuerpo{	
+			top:300px;
+		}
+		
+		.imgcara{
+			width: 70px;
+			height: 90px;
+				
+		}
+		
+		.imglogo{
+			width: 200px;
+			height: 100px;
+
+		}
+		
+		.lateral{
+			float:left;
+			visibility: visible;
+		}
+		
+		.juego{
+			padding-left: 50px; 
+		}
+     
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		.cuerpo{
+			top:300px;
+		}
+		.imgcara{
+			width: 100px;
+			height: 150px;
+		}
+        
+    }
+
+    /* Large Devices, Wide Screens */

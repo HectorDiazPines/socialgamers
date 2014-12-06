@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+
+/*logo y form de alta y registro*/
+
+
+
+.logo-login{
+	margin-bottom: 20px;
+		
+}
+.logo-login img{
+	
+	float: left;
+}
+
+.mensaje{
+	
+	float: left;
+}
+.log-reg{
+
+	float: right;
+	width: auto;
+	margin-top: 20px;
+}
+.login-mensaje{
+	padding: 0;
+	width: auto;
+}
+.login{
+	width: auto;
+	padding-right: 0;
+	float: right;
+}
+.registro{
+	width:auto;
+/* 	padding-left: 5px; */
+	float: right;
+	
+}
+.registro-mensaje{
+	width: auto;
+	padding: 0;
+	
+}
+
+#cerrar_sesion{
+	background: url(cerrar_sesion.png);
+	width:3px;
+}
+
+/*-------forma y colores  Pestañas-------*/
+.naranja {
+	    border-bottom-color: #FFF ;
+	    background-color: orange;
+	    color: grey ;
+	}
+.naranja a {
+	   
+	    color: grey ;
+	}
+.negro {
+	    margin-right: 0px;
+	    border-radius: 4px;
+	    background-color: grey;
+	}
+.negro a {
+	   
+	    color: orange;
+	}

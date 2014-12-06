@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+	
+		.nomUsu{
+			text-align: center;
+			margin-top: 20px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 4px;
+			background-color: #F9E69D;
+		}
+		.imgUsu{
+			margin-top: 20px;
+			
+		}
+		.imgUsu img{
+			
+			height:300px;
+			width:250px;
+/* 			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+			border-radius: 4px;
+			background-color: #F9E69D;
+		
+		}
+		.datosUsu{
+			margin-top:46px;
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			border-radius: 4px;
+			background-color: #F9E69D;
+		}
+		.tabladatos td {
+			padding: 14px;
+			
+	}
+	.Modificar{
+		padding: 0;
+		width: auto;
+	}
+	.Borrar{
+		padding: 0;
+		width: auto;
+	}
